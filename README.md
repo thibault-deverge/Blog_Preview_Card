@@ -4,8 +4,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ## Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   [Frontend-Mentor Solution](https://www.frontendmentor.io/solutions/blog-preview-card---solution-Lm0nW65S5W)
+-   [Live Site Preview](https://thibault-deverge.github.io/Blog_Preview_Card/)
 
 ## My process
 
