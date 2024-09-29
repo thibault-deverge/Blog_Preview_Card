@@ -11,7 +11,7 @@
 	--font-size-large: 24px;
 	--font-size-med: 16px;
 	--font-size-small: 14px;
-	--font-line-height: 150%;
+	--font-line-height: 1.5;
 	--font-weight-normal: 500;
 	--font-weight-extra-bold: 800;
 	--spacing-large: 24px;
@@ -51,62 +51,62 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	gap: var(--spacing-large);
+}
 
-	.card__image {
-		overflow: hidden;
+.card__image {
+	overflow: hidden;
 
-		img {
-			border-radius: 10px;
-		}
+	img {
+		border-radius: 10px;
+	}
+}
+
+.card__description {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	gap: var(--spacing-regular);
+}
+
+.card__button {
+	font-weight: var(--font-weight-extra-bold);
+	font-size: var(--font-size-small);
+	background-color: var(--color-yellow);
+	padding: var(--spacing-extrasmall) var(--spacing-regular);
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.card__date {
+	font-size: var(--font-size-small);
+}
+
+.card__title {
+	font-weight: var(--font-weight-extra-bold);
+	font-size: var(--font-size-large);
+
+	&:hover {
+		cursor: pointer;
+		color: var(--color-yellow);
+	}
+}
+
+.card__text {
+	color: var(--color-gray-500);
+}
+
+.card__author {
+	display: flex;
+	align-items: center;
+	gap: var(--spacing-regular);
+
+	img {
+		width: 32px;
 	}
 
-	.card__description {
-		display: flex;
-		flex-direction: column;
-		align-items: start;
-		gap: var(--spacing-regular);
-
-		button {
-			font-weight: var(--font-weight-extra-bold);
-			font-size: var(--font-size-small);
-			background-color: var(--color-yellow);
-			padding: var(--spacing-extrasmall) var(--spacing-regular);
-			border: none;
-			border-radius: 4px;
-			cursor: pointer;
-		}
-
-		time {
-			font-size: var(--font-size-small);
-		}
-
-		h1 {
-			font-weight: var(--font-weight-extra-bold);
-			font-size: var(--font-size-large);
-
-			&:hover {
-				cursor: pointer;
-				color: var(--color-yellow);
-			}
-		}
-
-		p {
-			color: var(--color-gray-500);
-		}
-	}
-
-	.card__author {
-		display: flex;
-		align-items: center;
-		gap: var(--spacing-regular);
-
-		img {
-			width: 32px;
-		}
-
-		span {
-			font-weight: var(--font-weight-extra-bold);
-			font-size: var(--font-size-small);
-		}
+	span {
+		font-weight: var(--font-weight-extra-bold);
+		font-size: var(--font-size-small);
 	}
 }
