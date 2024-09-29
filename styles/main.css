@@ -8,15 +8,15 @@
 
 :root {
 	--font-family-primary: 'Figtree', sans-serif;
-	--font-size-large: 24px;
-	--font-size-med: 16px;
-	--font-size-small: 14px;
+	--font-size-large: 1.5rem;
+	--font-size-med: 1rem;
+	--font-size-small: 0.875rem;
 	--font-line-height: 1.5;
 	--font-weight-normal: 500;
 	--font-weight-extra-bold: 800;
-	--spacing-large: 24px;
-	--spacing-regular: 12px;
-	--spacing-extrasmall: 4px;
+	--spacing-large: 1.5rem;
+	--spacing-regular: 0.75rem;
+	--spacing-extrasmall: 0.25rem;
 	--color-gray-950: #111111;
 	--color-gray-500: #6b6b6b;
 	--color-yellow: #f4d04e;
@@ -40,8 +40,9 @@ body {
 
 .card {
 	background-color: var(--color-white);
-	width: min-content;
-	max-width: 90vw;
+
+	width: 90%;
+	max-width: 24rem;
 	padding: var(--spacing-large);
 	border: 1px solid var(--color-gray-950);
 	border-radius: 20px;
@@ -102,7 +103,7 @@ body {
 	gap: var(--spacing-regular);
 
 	img {
-		width: 32px;
+		width: 2rem;
 	}
 
 	span {
