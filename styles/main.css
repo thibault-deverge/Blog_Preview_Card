@@ -54,12 +54,8 @@ body {
 	gap: var(--spacing-large);
 }
 
-.card__image {
-	overflow: hidden;
-
-	img {
-		border-radius: 10px;
-	}
+img {
+	border-radius: 10px;
 }
 
 .card__description {
